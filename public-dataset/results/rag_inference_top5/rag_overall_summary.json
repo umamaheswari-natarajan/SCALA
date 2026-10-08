@@ -1,0 +1,63 @@
+{
+    "num_test_queries": 872,
+    "training_kb_size": 3049,
+    "gmm_components": 55,
+    "gmm_clusters_selected": 5,
+    "retrieval_k": 5,
+    "llm_model": "gpt-4.1-mini",
+    "avg_candidate_count": 409.95298165137615,
+    "avg_candidate_reduction": 0.8655451027709492,
+    "avg_flat_gmm_topk_overlap": 0.9211009174311927,
+    "flat_avg_rougeL": 0.2251248406374579,
+    "gmm_avg_rougeL": 0.22534152826895218,
+    "flat_avg_bertscore_f1": 0.873737096786499,
+    "gmm_avg_bertscore_f1": 0.8736327886581421,
+    "encoding_latency": {
+        "mean_ms": 11.93624873936108,
+        "median_ms": 10.828800004674122,
+        "std_ms": 4.980730709447246,
+        "p95_ms": 17.322925006737933
+    },
+    "flat_retrieval_latency": {
+        "mean_ms": 0.3495880741991291,
+        "median_ms": 0.33075001556426287,
+        "std_ms": 0.09648663573298352,
+        "p95_ms": 0.5141349567566067
+    },
+    "gmm_routing_latency": {
+        "mean_ms": 0.4944592891736255,
+        "median_ms": 0.433700013672933,
+        "std_ms": 0.16052947435405024,
+        "p95_ms": 0.8112250070553273
+    },
+    "gmm_retrieval_latency": {
+        "mean_ms": 0.23189208690833232,
+        "median_ms": 0.21479997667483985,
+        "std_ms": 0.08237828241802816,
+        "p95_ms": 0.37353499210439606
+    },
+    "flat_llm_latency": {
+        "mean_ms": 2770.7208096330887,
+        "median_ms": 2315.208749991143,
+        "std_ms": 2127.868519671694,
+        "p95_ms": 5024.161280019323
+    },
+    "gmm_llm_latency": {
+        "mean_ms": 3437.587671903127,
+        "median_ms": 2302.178299985826,
+        "std_ms": 16171.647912253791,
+        "p95_ms": 5085.141639973151
+    },
+    "flat_e2e_latency": {
+        "mean_ms": 2783.2481432349664,
+        "median_ms": 2326.740599994082,
+        "std_ms": 2128.7227158722044,
+        "p95_ms": 5039.488865004385
+    },
+    "gmm_e2e_latency": {
+        "mean_ms": 3450.3670925447514,
+        "median_ms": 2313.2114500331227,
+        "std_ms": 16171.718881842651,
+        "p95_ms": 5103.9174649689785
+    }
+}

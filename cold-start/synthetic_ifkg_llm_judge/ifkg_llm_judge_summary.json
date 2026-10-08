@@ -1,0 +1,15 @@
+{
+    "judge_model": "gpt-4.1-mini",
+    "number_of_queries": 1050,
+    "gpt_judged_queries": 1019,
+    "automatic_no_kg_match": 31,
+    "relevant_count": 684,
+    "relevant_percentage": 65.14285714285715,
+    "closer_count": 281,
+    "closer_percentage": 26.761904761904766,
+    "inadequate_count": 85,
+    "inadequate_percentage": 8.095238095238095,
+    "relevant_plus_closer_count": 965,
+    "relevant_plus_closer_percentage": 91.9047619047619,
+    "errors": 0
+}

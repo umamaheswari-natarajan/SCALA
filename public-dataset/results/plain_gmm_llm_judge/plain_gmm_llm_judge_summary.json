@@ -1,0 +1,17 @@
+{
+    "baseline": "Plain GMM-RAG",
+    "judge_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "number_of_queries": 872,
+    "valid_judgements": 872,
+    "relevant_count": 698,
+    "relevant_percentage": 80.04587155963303,
+    "closer_count": 149,
+    "closer_percentage": 17.087155963302752,
+    "inadequate_count": 25,
+    "inadequate_percentage": 2.86697247706422,
+    "relevant_plus_closer_count": 847,
+    "relevant_plus_closer_percentage": 97.13302752293578,
+    "parse_error_count": 0,
+    "api_error_count": 0
+}

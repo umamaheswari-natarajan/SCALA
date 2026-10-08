@@ -1,0 +1,51 @@
+{
+    "method": "Retrieval-Aware GMM Top-3",
+    "num_test_queries": 872,
+    "training_kb_size": 3049,
+    "gmm_components": 55,
+    "gmm_clusters_selected": 3,
+    "retrieval_k": 5,
+    "llm_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "avg_candidate_count": 253.65366972477065,
+    "avg_candidate_reduction": 0.91680758618407,
+    "avg_flat_gmm_topk_overlap": 0.8759174311926606,
+    "gmm_avg_rougeL": 0.22539790952440641,
+    "gmm_avg_bertscore_f1": 0.8737476468086243,
+    "encoding_latency": {
+        "mean_ms": 12.528151606685917,
+        "median_ms": 11.257800040766597,
+        "std_ms": 4.850957287652308,
+        "p95_ms": 18.63763001747429
+    },
+    "gmm_routing_latency": {
+        "mean_ms": 0.7033213299385127,
+        "median_ms": 0.6975999567657709,
+        "std_ms": 0.26357527769405686,
+        "p95_ms": 1.1372400447726247
+    },
+    "gmm_retrieval_latency": {
+        "mean_ms": 0.30224014035161206,
+        "median_ms": 0.29835005989298224,
+        "std_ms": 0.0879048548703927,
+        "p95_ms": 0.45600003213621665
+    },
+    "gmm_prompt_latency": {
+        "mean_ms": 0.38318956615787786,
+        "median_ms": 0.36845001159235835,
+        "std_ms": 0.13494444925322113,
+        "p95_ms": 0.6004000315442681
+    },
+    "gmm_llm_latency": {
+        "mean_ms": 2630.15504495386,
+        "median_ms": 2329.188199946657,
+        "std_ms": 1159.2224648443348,
+        "p95_ms": 4654.163380031238
+    },
+    "gmm_e2e_latency": {
+        "mean_ms": 2644.071947596994,
+        "median_ms": 2342.1743498765863,
+        "std_ms": 1160.6708276686443,
+        "p95_ms": 4671.502234897342
+    }
+}

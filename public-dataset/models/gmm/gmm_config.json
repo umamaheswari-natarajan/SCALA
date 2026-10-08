@@ -1,0 +1,21 @@
+{
+    "selected_k": 55,
+    "selection_criterion": "minimum BIC",
+    "covariance_type": "diag",
+    "embedding_dimension": 256,
+    "training_records": 3049,
+    "best_metrics": {
+        "k": 55,
+        "bic": -801746.5522296734,
+        "aic": -971667.3125,
+        "silhouette_cosine": 0.13222554326057434,
+        "intra_cluster_cosine": 0.6502148583677997,
+        "validation_avg_log_likelihood": 157.8704833984375,
+        "fit_time_seconds": 2.4808933999956935,
+        "converged": true,
+        "iterations": 46,
+        "smallest_cluster": 5,
+        "largest_cluster": 152,
+        "mean_cluster_size": 55.43636363636364
+    }
+}

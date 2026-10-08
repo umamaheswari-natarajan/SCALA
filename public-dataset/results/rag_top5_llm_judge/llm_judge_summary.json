@@ -1,0 +1,24 @@
+{
+    "judge_model": "gpt-4.1-mini",
+    "number_of_queries": 872,
+    "flat_rag": {
+        "relevant_count": 720,
+        "relevant_percentage": 82.56880733944955,
+        "closer_count": 118,
+        "closer_percentage": 13.53211009174312,
+        "inadequate_count": 34,
+        "inadequate_percentage": 3.89908256880734,
+        "relevant_plus_closer_percentage": 96.10091743119266,
+        "errors": 0
+    },
+    "gmm_rag": {
+        "relevant_count": 710,
+        "relevant_percentage": 81.42201834862385,
+        "closer_count": 133,
+        "closer_percentage": 15.252293577981652,
+        "inadequate_count": 29,
+        "inadequate_percentage": 3.325688073394496,
+        "relevant_plus_closer_percentage": 96.67431192660551,
+        "errors": 0
+    }
+}

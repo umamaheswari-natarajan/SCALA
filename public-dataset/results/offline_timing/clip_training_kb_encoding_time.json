@@ -1,0 +1,20 @@
+{
+    "measurement": "CLIP training-KB fault embedding generation",
+    "training_records": 3049,
+    "batch_size": 64,
+    "num_runs": 3,
+    "warmup_batches": 2,
+    "device": "cuda",
+    "backbone_dimension": 384,
+    "projection_dimension": 256,
+    "run_times_seconds": [
+        3.6445988999912515,
+        3.632004200000665,
+        3.658409899988328
+    ],
+    "mean_time_seconds": 3.645004333326748,
+    "median_time_seconds": 3.6445988999912515,
+    "std_time_seconds": 0.010783893239511257,
+    "min_time_seconds": 3.632004200000665,
+    "max_time_seconds": 3.658409899988328
+}

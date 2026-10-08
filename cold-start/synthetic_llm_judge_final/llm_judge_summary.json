@@ -1,0 +1,37 @@
+{
+    "judge_model": "gpt-4.1-mini",
+    "number_of_queries": 1050,
+    "standard_rag": {
+        "relevant_count": 972,
+        "relevant_percentage": 92.57142857142857,
+        "closer_count": 70,
+        "closer_percentage": 6.666666666666667,
+        "inadequate_count": 8,
+        "inadequate_percentage": 0.7619047619047619,
+        "relevant_plus_closer_count": 1042,
+        "relevant_plus_closer_percentage": 99.23809523809524,
+        "errors": 0
+    },
+    "clip_gmm": {
+        "relevant_count": 983,
+        "relevant_percentage": 93.61904761904762,
+        "closer_count": 59,
+        "closer_percentage": 5.6190476190476195,
+        "inadequate_count": 8,
+        "inadequate_percentage": 0.7619047619047619,
+        "relevant_plus_closer_count": 1042,
+        "relevant_plus_closer_percentage": 99.23809523809524,
+        "errors": 0
+    },
+    "clip_pca50_gmm": {
+        "relevant_count": 984,
+        "relevant_percentage": 93.71428571428572,
+        "closer_count": 61,
+        "closer_percentage": 5.809523809523809,
+        "inadequate_count": 5,
+        "inadequate_percentage": 0.4761904761904762,
+        "relevant_plus_closer_count": 1045,
+        "relevant_plus_closer_percentage": 99.52380952380952,
+        "errors": 0
+    }
+}

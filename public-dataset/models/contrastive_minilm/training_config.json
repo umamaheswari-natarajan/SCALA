@@ -1,0 +1,20 @@
+{
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "backbone_dim": 384,
+    "projection_dim": 256,
+    "max_length": 256,
+    "batch_size": 32,
+    "backbone_lr": 2e-05,
+    "head_lr": 0.001,
+    "best_epoch": 4,
+    "validation_metrics": {
+        "val_loss": 1.6484150886535645,
+        "recall_at_1": 0.6192660550458715,
+        "recall_at_5": 0.8142201834862385,
+        "recall_at_10": 0.8600917431192661,
+        "mrr": 0.7085280008366718,
+        "positive_cosine": 0.56741107485915,
+        "negative_cosine": 0.0039450302720069885,
+        "temperature": 0.05124274064920751
+    }
+}

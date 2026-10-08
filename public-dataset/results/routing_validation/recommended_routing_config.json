@@ -1,0 +1,16 @@
+{
+    "strategy": "top_5_clusters",
+    "reference_k": 10,
+    "cluster_hit_rate": 1.0,
+    "routing_recall": 0.8922018348623854,
+    "retrieval_overlap": 0.8919724770642202,
+    "avg_candidate_count": 417.26376146788994,
+    "avg_candidate_fraction": 0.13685266036992128,
+    "avg_candidate_reduction": 0.8631473396300787,
+    "avg_selected_clusters": 5.0,
+    "abstention_rate": 0.0,
+    "routing_eval_time_seconds": 0.04486460000043735,
+    "avg_routing_eval_ms": 0.10290045871659942,
+    "threshold": null,
+    "selection_reason": "No configuration met target routing recall; selected highest routing recall."
+}

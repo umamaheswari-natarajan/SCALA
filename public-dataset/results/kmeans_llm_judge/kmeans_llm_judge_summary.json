@@ -1,0 +1,12 @@
+{
+    "judge_model": "gpt-4.1-mini",
+    "number_of_queries": 872,
+    "valid_judgements": 872,
+    "relevant_count": 680,
+    "relevant_percentage": 77.98165137614679,
+    "closer_count": 156,
+    "closer_percentage": 17.889908256880734,
+    "inadequate_count": 36,
+    "inadequate_percentage": 4.128440366972478,
+    "relevant_plus_closer_percentage": 95.87155963302753
+}

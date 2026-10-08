@@ -1,0 +1,17 @@
+{
+    "method": "Retrieval-Aware GMM Top-3",
+    "judge_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "number_of_queries": 872,
+    "valid_judgements": 872,
+    "relevant_count": 708,
+    "relevant_percentage": 81.19266055045871,
+    "closer_count": 133,
+    "closer_percentage": 15.252293577981652,
+    "inadequate_count": 31,
+    "inadequate_percentage": 3.555045871559633,
+    "relevant_plus_closer_count": 841,
+    "relevant_plus_closer_percentage": 96.44495412844036,
+    "parse_error_count": 0,
+    "api_error_count": 0
+}

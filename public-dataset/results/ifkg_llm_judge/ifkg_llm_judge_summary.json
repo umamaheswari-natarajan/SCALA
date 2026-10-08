@@ -1,0 +1,17 @@
+{
+    "baseline": "IFKG",
+    "judge_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "number_of_queries": 872,
+    "valid_judgements": 872,
+    "relevant_count": 407,
+    "relevant_percentage": 46.674311926605505,
+    "closer_count": 349,
+    "closer_percentage": 40.022935779816514,
+    "inadequate_count": 116,
+    "inadequate_percentage": 13.302752293577983,
+    "relevant_plus_closer_count": 756,
+    "relevant_plus_closer_percentage": 86.69724770642202,
+    "parse_error_count": 0,
+    "api_error_count": 0
+}

@@ -1,0 +1,17 @@
+{
+    "kb_records": 10500,
+    "original_embedding_dimension": 256,
+    "pca_dimension": 50,
+    "pca_explained_variance_ratio_sum": 0.92039954662323,
+    "gmm_k": 50,
+    "gmm_covariance_type": "diag",
+    "random_state": 42,
+    "pca_fit_and_kb_transform_sec": 0.09333229996263981,
+    "gmm_fit_sec": 11.491831500083208,
+    "cluster_assignment_sec": 0.005251700058579445,
+    "average_cluster_size": 210.0,
+    "median_cluster_size": 183.5,
+    "minimum_cluster_size": 46,
+    "maximum_cluster_size": 909,
+    "empty_clusters": 0
+}

@@ -1,0 +1,43 @@
+{
+    "num_test_queries": 872,
+    "training_kb_size": 3049,
+    "kmeans_clusters": 55,
+    "retrieval_k": 5,
+    "llm_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "avg_candidate_count": 67.45871559633028,
+    "avg_candidate_reduction": 0.9778751342747359,
+    "avg_clip_kmeans_topk_overlap": 0.7119266055045871,
+    "avg_rougeL": 0.22218631955405724,
+    "avg_bertscore_f1": 0.8728011846542358,
+    "encoding_latency": {
+        "mean_ms": 11.935307225572915,
+        "median_ms": 10.87639998877421,
+        "std_ms": 4.567098166995018,
+        "p95_ms": 17.375750007340685
+    },
+    "routing_latency": {
+        "mean_ms": 0.45536628275748703,
+        "median_ms": 0.3239499928895384,
+        "std_ms": 2.6700379518645656,
+        "p95_ms": 0.5759899620898067
+    },
+    "retrieval_latency": {
+        "mean_ms": 0.06826043568461826,
+        "median_ms": 0.036999990697950125,
+        "std_ms": 0.067250470159221,
+        "p95_ms": 0.22612503380514679
+    },
+    "llm_latency": {
+        "mean_ms": 2605.2191972476485,
+        "median_ms": 2299.5247000071686,
+        "std_ms": 1092.1242621341646,
+        "p95_ms": 4597.275700030146
+    },
+    "e2e_latency": {
+        "mean_ms": 2617.912392314217,
+        "median_ms": 2310.654400032945,
+        "std_ms": 1093.7757184435814,
+        "p95_ms": 4616.105140006399
+    }
+}

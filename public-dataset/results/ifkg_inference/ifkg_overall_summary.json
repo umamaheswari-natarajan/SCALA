@@ -1,0 +1,49 @@
+{
+    "baseline": "IFKG",
+    "num_test_queries": 872,
+    "llm_model": "gpt-4.1-mini",
+    "retrieval_method": "LLM text-to-Cypher + Neo4j knowledge graph",
+    "candidate_reduction": "N/A",
+    "top5_retrieval_overlap": "N/A",
+    "avg_rougeL": 0.1711354954784756,
+    "avg_bertscore_f1": 0.860588014125824,
+    "avg_kg_result_count": 9.297018348623853,
+    "avg_unique_training_records": 9.294724770642201,
+    "kg_hit_count": 813,
+    "kg_hit_rate": 0.9323394495412844,
+    "cypher_success_count": 815,
+    "cypher_success_rate": 0.9346330275229358,
+    "avg_cypher_calls": 1.1330275229357798,
+    "avg_cypher_retry_count": 0.13302752293577982,
+    "answer_api_error_count": 0,
+    "text_to_cypher_latency": {
+        "mean_ms": 3485.578413876433,
+        "median_ms": 2890.2894999991986,
+        "std_ms": 2003.313399464317,
+        "p95_ms": 8766.746180001788
+    },
+    "kg_query_latency": {
+        "mean_ms": 70.73895149112496,
+        "median_ms": 50.46204999962356,
+        "std_ms": 207.51915264884607,
+        "p95_ms": 110.64169999590369
+    },
+    "prompt_latency": {
+        "mean_ms": 0.00363944950174442,
+        "median_ms": 0.002900007530115545,
+        "std_ms": 0.0022353150977027013,
+        "p95_ms": 0.00790000194683671
+    },
+    "llm_latency": {
+        "mean_ms": 2325.223693921535,
+        "median_ms": 2198.038499998802,
+        "std_ms": 773.826083748114,
+        "p95_ms": 3527.9047049989435
+    },
+    "e2e_latency": {
+        "mean_ms": 5881.754251834812,
+        "median_ms": 5234.623549993557,
+        "std_ms": 2173.5939268002758,
+        "p95_ms": 11403.892410004473
+    }
+}
