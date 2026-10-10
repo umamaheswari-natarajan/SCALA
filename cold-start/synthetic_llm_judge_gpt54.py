@@ -11,7 +11,7 @@ from openai import OpenAI
 # CONFIG
 # ============================================================
 
-BASE_DIR = "/home/iiitb/Desktop/SCALA/synthetic-dataset"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 STANDARD_FILE = os.path.join(
     BASE_DIR,

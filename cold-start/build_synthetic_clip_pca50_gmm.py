@@ -13,7 +13,7 @@ from sklearn.mixture import GaussianMixture
 # CONFIG
 # ============================================================
 
-BASE_DIR = r"C:\Users\Uma\IIIT-B\IIITB-IBN-ORAN-WCNC\SCALA\synthetic-dataset"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Existing CLIP proposed-model artifacts
 SOURCE_DIR = os.path.join(

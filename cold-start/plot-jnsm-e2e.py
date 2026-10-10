@@ -8,10 +8,7 @@ import matplotlib.pyplot as plt
 # CONFIG
 # ============================================================
 
-BASE_DIR = (
-    r"C:\Users\Uma\IIIT-B\IIITB-IBN-ORAN-WCNC"
-    r"\SCALA\synthetic-dataset"
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 STANDARD_FILE = os.path.join(
     BASE_DIR,

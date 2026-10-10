@@ -11,7 +11,7 @@ import pandas as pd
 # CONFIGURATION
 # ============================================================
 
-BASE_DIR = r"C:\Users\Uma\IIIT-B\IIITB-IBN-ORAN-WCNC\SCALA"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 EMBEDDING_DIR = os.path.join(
     BASE_DIR,
