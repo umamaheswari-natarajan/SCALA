@@ -1,0 +1,48 @@
+{
+    "baseline": "Standard RAG",
+    "num_test_queries": 872,
+    "training_kb_size": 3049,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "uses_clip_representation": false,
+    "uses_clustering": false,
+    "uses_routing": false,
+    "retrieval_scope": "Full training KB",
+    "retrieval_k": 5,
+    "llm_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "avg_candidate_count": 3049.0,
+    "avg_candidate_reduction": 0.0,
+    "avg_rougeL": 0.22248353032405987,
+    "avg_bertscore_f1": 0.8730440139770508,
+    "encoding_latency": {
+        "mean_ms": 16.681417544348882,
+        "median_ms": 13.949150103144348,
+        "std_ms": 7.881742074350265,
+        "p95_ms": 26.114749896805733
+    },
+    "retrieval_latency": {
+        "mean_ms": 0.7390589431919362,
+        "median_ms": 0.4582999972626567,
+        "std_ms": 1.3328119627303867,
+        "p95_ms": 1.6003851429559284
+    },
+    "prompt_latency": {
+        "mean_ms": 0.35357374031472644,
+        "median_ms": 0.2564500318840146,
+        "std_ms": 0.2497518806075779,
+        "p95_ms": 0.6405349355190992
+    },
+    "llm_latency": {
+        "mean_ms": 1769.4056588286478,
+        "median_ms": 1643.7152000144124,
+        "std_ms": 470.41515461813765,
+        "p95_ms": 2696.11016489798
+    },
+    "e2e_latency": {
+        "mean_ms": 1787.1797090565035,
+        "median_ms": 1660.053449915722,
+        "std_ms": 472.8768344957297,
+        "p95_ms": 2716.82269470766
+    }
+}

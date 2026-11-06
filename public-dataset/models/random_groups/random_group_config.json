@@ -1,0 +1,13 @@
+{
+    "num_groups": 55,
+    "random_state": 42,
+    "training_records": 3049,
+    "embedding_dimension": 384,
+    "assignment": "independent uniform random assignment",
+    "balanced": false,
+    "smallest_group": 40,
+    "largest_group": 71,
+    "mean_group_size": 55.43636363636364,
+    "group_mean_source": "raw learned fault embeddings",
+    "online_routing": "cosine similarity to L2-normalized random-group means"
+}

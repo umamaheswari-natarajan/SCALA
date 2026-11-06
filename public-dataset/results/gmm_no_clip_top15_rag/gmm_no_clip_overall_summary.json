@@ -1,0 +1,49 @@
+{
+    "method": "GMM + No CLIP",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "uses_clip_representation": false,
+    "uses_gmm": true,
+    "routing_method": "Cosine similarity to normalized GMM component means",
+    "num_test_queries": 872,
+    "training_kb_size": 3049,
+    "embedding_dimension": 384,
+    "gmm_components": 55,
+    "top_clusters": 15,
+    "retrieval_k": 5,
+    "avg_candidate_count": 964.440366972477,
+    "avg_candidate_reduction": 0.6836863342169639,
+    "llm_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "avg_rougeL": 0.22307457212319204,
+    "avg_bertscore_f1": 0.8735088109970093,
+    "encoding_latency": {
+        "mean_ms": 13.308858831121785,
+        "median_ms": 12.248150000232272,
+        "std_ms": 6.219980168772754,
+        "p95_ms": 18.643765000160784
+    },
+    "retrieval_latency": {
+        "mean_ms": 0.7523630735095389,
+        "median_ms": 0.7110000005923212,
+        "std_ms": 0.9604856712443841,
+        "p95_ms": 1.0633200086886059
+    },
+    "prompt_latency": {
+        "mean_ms": 0.2255423160773433,
+        "median_ms": 0.1997499930439517,
+        "std_ms": 0.07304296905091351,
+        "p95_ms": 0.3965900090406649
+    },
+    "llm_latency": {
+        "mean_ms": 1824.413988073502,
+        "median_ms": 1716.4707999909297,
+        "std_ms": 464.73543956812546,
+        "p95_ms": 2534.8388250058624
+    },
+    "e2e_latency": {
+        "mean_ms": 1838.7007522942106,
+        "median_ms": 1729.756600005203,
+        "std_ms": 466.31766315276894,
+        "p95_ms": 2551.5752249964858
+    }
+}

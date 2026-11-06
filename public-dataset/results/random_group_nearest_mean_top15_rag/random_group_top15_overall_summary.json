@@ -1,0 +1,67 @@
+{
+    "method": "Learned Embeddings + Random Groups + Cosine Nearest-Mean Routing",
+    "organization": "Random assignment",
+    "balanced_random_groups": false,
+    "num_random_groups": 55,
+    "num_routed_groups": 15,
+    "retrieval_k": 5,
+    "routing_metric": "Cosine similarity to L2-normalized random-group means",
+    "record_retrieval_metric": "Cosine similarity",
+    "top_k_implementation": "argpartition for Top-15 routing and Top-5 candidate selection; final Top-5 sorted by cosine similarity",
+    "training_records": 3049,
+    "test_queries": 872,
+    "embedding_dimension": 384,
+    "generator": "gpt-4.1-mini",
+    "avg_candidate_count": 832.3635321100918,
+    "avg_cosine_comparisons": 832.3635321100918,
+    "routing_comparisons_per_query": 55,
+    "avg_total_similarity_comparisons": 887.3635321100918,
+    "avg_candidate_fraction": 0.27299558285014486,
+    "avg_search_space_reduction": 0.7270044171498552,
+    "rouge_l": 0.22033320632603554,
+    "bertscore_f1": 0.8725835084915161,
+    "latency": {
+        "encoding": {
+            "mean_ms": 12.495480619123688,
+            "median_ms": 11.321999991196208,
+            "std_ms": 5.40230232696952,
+            "p95_ms": 18.32263999822316
+        },
+        "routing": {
+            "mean_ms": 0.05209380720070256,
+            "median_ms": 0.04679999256040901,
+            "std_ms": 0.019830713369140083,
+            "p95_ms": 0.07818001322448251
+        },
+        "retrieval": {
+            "mean_ms": 0.8426380730629258,
+            "median_ms": 0.7880500052124262,
+            "std_ms": 0.8597006550967892,
+            "p95_ms": 1.189580012578516
+        },
+        "routing_plus_retrieval": {
+            "mean_ms": 0.8947318802636284,
+            "median_ms": 0.8354999881703407,
+            "std_ms": 0.8639408030164292,
+            "p95_ms": 1.258380012586712
+        },
+        "prompt": {
+            "mean_ms": 0.28408784395935005,
+            "median_ms": 0.228599994443357,
+            "std_ms": 0.12906525338331765,
+            "p95_ms": 0.5305800077621825
+        },
+        "llm": {
+            "mean_ms": 1907.2069417435753,
+            "median_ms": 1744.9205000157235,
+            "std_ms": 722.6635754340446,
+            "p95_ms": 2829.81671000598
+        },
+        "e2e": {
+            "mean_ms": 1920.881242086922,
+            "median_ms": 1757.7911999978824,
+            "std_ms": 724.2136338267883,
+            "p95_ms": 2844.125065013941
+        }
+    }
+}

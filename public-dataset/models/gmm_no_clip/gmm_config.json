@@ -1,0 +1,22 @@
+{
+    "method": "GMM + No CLIP",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "uses_clip_representation": false,
+    "uses_projection_head": false,
+    "uses_gmm": true,
+    "selected_k": 55,
+    "selection_criterion": "fixed K=55 for consistency with the SCALA experimental configuration",
+    "covariance_type": "diag",
+    "random_state": 42,
+    "n_init": 3,
+    "max_iter": 500,
+    "reg_covar": 1e-06,
+    "embedding_dimension": 384,
+    "training_records": 3049,
+    "gmm_fit_representation": "raw pretrained MiniLM fault embeddings",
+    "offline_cluster_assignment": "gmm.predict(X_train)",
+    "online_routing": "cosine similarity to L2-normalized GMM component means",
+    "smallest_cluster": 14,
+    "largest_cluster": 175,
+    "mean_cluster_size": 55.43636363636364
+}

@@ -1,0 +1,8 @@
+{
+    "selected_k": 55,
+    "selection_criterion": "fixed K=55 for consistency with the SCALA experimental configuration",
+    "covariance_type": "diag",
+    "embedding_dimension": 384,
+    "training_records": 3049,
+    "online_routing": "cosine similarity to L2-normalized GMM component means"
+}

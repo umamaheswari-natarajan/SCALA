@@ -1,0 +1,45 @@
+{
+    "method": "SCALA Cosine Nearest-Mean Top-15 Clusters",
+    "routing_method": "Cosine similarity to normalized GMM component means",
+    "num_test_queries": 872,
+    "training_kb_size": 3049,
+    "gmm_components": 55,
+    "top_clusters": 15,
+    "retrieval_k": 5,
+    "avg_candidate_count": 855.4105504587156,
+    "avg_candidate_reduction": 0.7194455393707065,
+    "llm_model": "gpt-4.1-mini",
+    "temperature": 0,
+    "avg_rougeL": 0.22312743961599807,
+    "avg_bertscore_f1": 0.8739243149757385,
+    "encoding_latency": {
+        "mean_ms": 11.838506766444889,
+        "median_ms": 10.83415001630783,
+        "std_ms": 5.109078893657668,
+        "p95_ms": 17.32713000237709
+    },
+    "retrieval_latency": {
+        "mean_ms": 0.7258256881109572,
+        "median_ms": 0.669100001687184,
+        "std_ms": 0.982711529033812,
+        "p95_ms": 0.9392550084157842
+    },
+    "prompt_latency": {
+        "mean_ms": 0.2022795877798563,
+        "median_ms": 0.1883000077214092,
+        "std_ms": 0.057728830489717095,
+        "p95_ms": 0.3208199981600045
+    },
+    "llm_latency": {
+        "mean_ms": 1813.575763188439,
+        "median_ms": 1674.1041999921435,
+        "std_ms": 567.6445450502619,
+        "p95_ms": 2645.4839599959087
+    },
+    "e2e_latency": {
+        "mean_ms": 1826.3423752307747,
+        "median_ms": 1685.8794500149088,
+        "std_ms": 569.2837314277267,
+        "p95_ms": 2662.9257850028807
+    }
+}

@@ -1,0 +1,4 @@
+method,num_queries,mean_cosine,threshold,above_threshold_count,above_threshold_percentage
+scala_64,1050,0.70992607,0.5,984,93.71428571428572
+scala_10500,1050,0.71600014,0.5,974,92.76190476190476
+ifkg,1050,0.53428805,0.5,639,60.857142857142854
