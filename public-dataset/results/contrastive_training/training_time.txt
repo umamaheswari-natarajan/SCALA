@@ -1,2 +1,0 @@
-Total training time seconds: 1038.0015
-Best validation MRR: 0.708528
